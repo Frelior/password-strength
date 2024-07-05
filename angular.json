@@ -20,8 +20,6 @@
             "outputPath": "dist/password-strength",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "baseHref": "/password-strength/",
-            "deployUrl": "/password-strength/browser/",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",

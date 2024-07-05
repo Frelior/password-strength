@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { PasswordCheckerComponent } from './components/input/password-checker.component';
-import {FormsModule } from '@angular/forms';
+import { PasswordCheckerComponent } from './components/password-checker/password-checker.component';
 
 @Component({
   selector: 'app-root',
@@ -10,4 +9,6 @@ import {FormsModule } from '@angular/forms';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {}
+export class AppComponent {
+  title: string = 'password-strength';
+}
